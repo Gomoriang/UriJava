@@ -23,5 +23,15 @@ git status
 apagando repositorio git
 rm -rf .git
 
+adiciona todos os arquivos do repostorio
+git add . 
 
+adiciona um arquivo
+git add documento.txt
+
+realizando um coomit
+git commit -m "mensagem"
+
+exibe o historico de commits
+git log
 teste
