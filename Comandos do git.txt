@@ -1,0 +1,24 @@
+Comandos do git
+
+definir o nome do usuario
+git config --global user.name "Shaolin Ramos"
+
+definir email do usuario
+ git config --global user.email shaolintrs@gmail.com
+
+
+ verificar se as alterações acimas foram realizadas
+ $ git config --list
+
+
+iniciando uma pasta
+$ mkdir exemplo_01
+
+definindo um repositorio
+$ git init
+
+verificando os arquivos rastreados ou nao
+git status
+
+
+
