@@ -34,4 +34,15 @@ git commit -m "mensagem"
 
 exibe o historico de commits
 git log
-teste
+
+estagios do git==================
+
+committed
+gravado os dados estao armazenados com segurança localmente
+modified
+esta modificado o arquivo mas ainda nao houve commit
+staged
+quando o arquivo modificado foi marcado na versao corrente para poder fazer parte no proximo commit
+
+=============================================
+
