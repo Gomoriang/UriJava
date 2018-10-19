@@ -46,4 +46,5 @@ quando o arquivo modificado foi marcado na versao corrente para poder fazer part
 
 =============================================
 ANDANDO ENTRE OS COMMITS/SNAPSHOTS
-git checout + hash = nagegar entre os commits
+git checkout + hash = nagegar entre os commits
+git checkout master = lega para o ultimo commit
