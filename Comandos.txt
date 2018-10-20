@@ -10,6 +10,11 @@ definir email do usuario
  verificar se as alterações acimas foram realizadas
  $ git config --list
 
+==== navegando entre pasta ===
+dir =  listar diretorios
+cd nomeDiretorio = acessa o diretorio especificado
+cd .. = volta ao diretorio anterior
+ls = listar arquivos
 
 iniciando uma pasta
 $ mkdir exemplo_01
@@ -46,5 +51,35 @@ quando o arquivo modificado foi marcado na versao corrente para poder fazer part
 
 =============================================
 ANDANDO ENTRE OS COMMITS/SNAPSHOTS
-git checkout + hash = nagegar entre os commits
+git checkout + hash = navegar entre os commits
 git checkout master = lega para o ultimo commit
+
+==============================================
+analisando e clonando projetos do github
+git clone <url.git>
+=================
+criando  um repositorio no githun
+crie primeiramente o repositorio no github web
+apos isso ele lhe dara 3 opções
+1 - criar um novo repositorio 
+2 - empurar um diretorio existente
+3 - importar o codigo de um outro repositorio
+todas as opções saod dadas pela linha de comando do git bash
+batando apenas copiar as linhas de comandos do git web e executar no git bash.
+===================
+or create a new repository on the command line:
+echo "# UriJava" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Gomoriang/UriJava.git
+git push -u origin master
+
+…or push an existing repository from the command line:
+git remote add origin https://github.com/Gomoriang/UriJava.git
+git push -u origin master
+
+…or import code from another repository:
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+====================================
